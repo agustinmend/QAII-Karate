@@ -18,7 +18,7 @@ pipeline {
         stage('Build & Test') {
             steps {
                 echo 'Ejecutando pruebas Karate...'
-                bat 'mvn test -Dkarate.options="--tags @Smock"'
+                bat 'mvn clean test'
             }
         }
 
