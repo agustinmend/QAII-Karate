@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Clonando el repositorio...'
-                git branch: 'main', url: 'https://github.com'
+                git branch: 'main', url: 'https://github.com/agustinmend/QAII-Karate.git'
             }
         }
 
